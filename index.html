@@ -4,39 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebStudio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100..900&display=swap" rel="stylesheet">           
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
+
 <body>
-    <header>
-        <nav>
-            <a href="./index.html">WebStudio</a>
 
-            <ul>
+    <header class="page-header">
+        <nav class="header-nav">
+            <a class="logo header-logo" href="./index.html"
+            >Web<span class="logo-part">Studio </span></a>
+               
 
-                <li>
-                     <a href="studio">Studio</a>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Studio</a>
                 </li>
-                <li>
-                     <a href="portfolio">Portfolio</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio">Portfolio</a>
                 </li>
-                <li>
-                    <a href="contacts">Contacts</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts">Contacts</a>
                 </li>
             </ul>
-            </nav>
-            <address>
-                <ul>
-                    <li>
-                         <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                    <li>
-                        <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-                    </li>
-                </ul>
-            </address>
+        </nav>
+        <address class="contacts"></address>
+            <ul class="contacts-list"></ul>
+                <li class="contacts-item">
+                    <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="contacts-item">
+                    <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+        </address>
 
-        
+
 
     </header>
     <main>
@@ -46,7 +54,7 @@
             <button type="button">Order Service</button>
         </section>
         <section>
-            <h2>#</h2>
+            <h2>Features</h2>
             <ul>
                 <li>
                     <h3>Strategy</h3>
@@ -96,6 +104,42 @@
                 </li>
 
             </ul>
+        </section>
+        <section>
+            <h2>Our Portfolio</h2>
+            <ul>
+                <li>
+                    <img src="./images/bankapp.jpg"width="360" height="300" alt="Banking App">
+                    <h4>Banking App</h4>
+                    <p>App</p>
+                </li>
+                <li>
+                    <img src="./images/qrcode.jpg"width="360" height="300" alt="Cashless Payment">
+                    <h4>Cashless Payment</h4>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/normalcy.jpg"width="360" height="300" alt="Meditation App">
+                    <h4>Meditation App</h4>
+                    <p>App</p>
+                </li>
+                <li>
+                    <img src="./images/car.jpg"width="360" height="300" alt="Taxi Service">
+                    <h4>Taxi Service</h4>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/phone.jpg"width="360" height="300" alt="Screen Illustrations">
+                    <h4>Screen Illustrations</h4>
+                    <p>Design</p>
+                </li>
+                <li>
+                    <img src="./images/girl.jpg"width="360" height="300" alt="Online Courses">
+                    <h4>Online Courses</h4>
+                    <p>Marketing</p>
+                </li>
+            </ul>
+
         </section>
     </main>
     <footer>
