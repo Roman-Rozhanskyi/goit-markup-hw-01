@@ -68,8 +68,19 @@ text-align: center;
 color: #fff;
 }
 
-
+.hero-baner-button :hover{
+   background-color: #404BBF; 
+}
+.hero-baner-button :focus{
+     background-color: #404BBF;
+}
 .hero-baner-button{
+    
+    cursor: pointer;
+    color: #ffffff;
+     letter-spacing: 0.04em;
+    line-height: 1.5;
+     font-weight: 500;
     border-radius: 4px;
 padding: 16px 32px;
 width: 169px;
