@@ -67,11 +67,12 @@ text-align: center;
 color: #fff;
 }
 
-.hero-baner-button:hover, :focus{
-   background-color: #404bbf;
-   background-color: #404bbf;
-}
-   
+   .hero-baner-button:hover{
+    background-color: #404bbf;
+   }
+   .hero-baner-button:focus{
+    background-color: #404bbf;
+   }
 
 .hero-baner-button{
     
