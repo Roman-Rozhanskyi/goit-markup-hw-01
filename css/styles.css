@@ -69,6 +69,7 @@ color: #fff;
 
 .hero-baner-button:hover, :focus{
    background-color: #404bbf;
+   background-color: #404bbf;
 }
    
 
@@ -80,10 +81,6 @@ color: #ffffff;
 line-height: 1.5;
  font-weight: 500;
     
-padding: 16px 32px;
-width: 169px;
-height: 56px;
-
 background-color: #4d5ae5;
 }
 /*----benefits section star----*/
