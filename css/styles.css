@@ -54,12 +54,12 @@ color: #434455;
     
 }
 .hero-baner{
-    width: 1440px;
-height: 600px;
+ 
 background-color: #2e2f42;
 }
 
 .hero-baner-title{
+    line-height: 1.07;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07143;
@@ -68,24 +68,23 @@ text-align: center;
 color: #fff;
 }
 
-.hero-baner-button :hover{
-   background-color: #404BBF; 
+.hero-baner-button:hover, :focus{
+    color: #404bbf;
 }
-.hero-baner-button :focus{
-     background-color: #404BBF;
-}
+   
+
 .hero-baner-button{
     
-    cursor: pointer;
-    color: #ffffff;
-     letter-spacing: 0.04em;
-    line-height: 1.5;
-     font-weight: 500;
-    border-radius: 4px;
+cursor: pointer;
+color: #ffffff;
+ letter-spacing: 0.04em;
+line-height: 1.5;
+ font-weight: 500;
+    
 padding: 16px 32px;
 width: 169px;
 height: 56px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
 background-color: #4d5ae5;
 }
 /*----benefits section star----*/
