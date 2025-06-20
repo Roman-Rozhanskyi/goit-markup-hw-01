@@ -225,7 +225,7 @@ color: #2e2f42;
 .taem-list{
 display: flex;
 gap: 24px;
-width: calc((100% - 72px) / 4)
+
 }
 
 .list-item{
