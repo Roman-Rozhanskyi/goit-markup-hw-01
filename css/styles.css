@@ -226,11 +226,12 @@ color: #2e2f42;
 .taem-list{
 display: flex;
 gap: 24px;
+width: calc((100% - 72px) / 4);
 
 }
 
 .list-item{
-   width: calc((100% - 72px) / 4); 
+    
     border-radius: 0px 0px 4px 4px;
     background-color: #fff;
     
@@ -250,6 +251,9 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+}
+.name{
+    padding: 32px 0;
 }
 
 .team-list-item-text {
