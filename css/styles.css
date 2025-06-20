@@ -109,7 +109,7 @@ color: #434455;
 
 
 .container hero-baner-container{
-    padding: 188px 0;
+    
     
 }
 .hero-baner{
@@ -119,6 +119,7 @@ background-color: #2e2f42;
 }
 
 .hero-baner-title{
+    padding: 188px 0;
 max-width: 496px;
 font-weight: 700;
 font-size: 56px;
