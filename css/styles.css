@@ -296,8 +296,12 @@ display: flex;
     
 .name-app-container{
 border-top: none;    
-border: 1px solid  #e7e9fc;
+
 padding: 32px 16px;
+}
+
+.service-container{
+border: 1px solid  #e7e9fc;
 }
 
 .titles {
