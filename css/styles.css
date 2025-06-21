@@ -176,9 +176,8 @@ text-align: center;
 color: #2e2f42;
 }
 .benefits-list-item {
-    width:calc((100% - 72px) / 4);
-     
-    font-weight: 400;
+width:calc((100% - 72px) / 4);
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -240,11 +239,11 @@ color: #2e2f42;
 .taem-list{
 display: flex;
 gap: 24px;
-
+width: calc((100% - 72px) / 4);
 }
 
 .list-item{
-width: calc((100% - 72px) / 4);
+
 border-radius: 0px 0px 4px 4px;
  background-color: #fff;
 }
@@ -345,12 +344,19 @@ color: #434455;
 
 /*---footer section start*/
 .page-footer{
+    padding: 100px 0;
     background-color: #2e2f42;
+.logo footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 }
 .footer-logo-part{
     color: #f4f4fd;
 }
 .footer-list-text{
+    max-width: 264px;
   font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
