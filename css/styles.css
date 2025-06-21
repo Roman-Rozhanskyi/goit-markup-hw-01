@@ -268,6 +268,7 @@ color: #2e2f42;
 .portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
+    margin-bottom: 8px;
 }
 
 .portfolio-title {
@@ -293,14 +294,14 @@ display: flex;
 
 }
     
-.container name-app-container{
+.name-app-container{
 border-top: none;    
 border: 1px solid  #e7e9fc;
 padding: 32px 16px;
 }
 
 .titles {
-margin-bottom: 8px;
+
 
 font-weight: 500;
 font-size: 20px;
