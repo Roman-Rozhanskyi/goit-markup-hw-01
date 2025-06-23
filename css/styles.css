@@ -24,6 +24,7 @@ a{
     display: block;
 }
 .container{
+    
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto
@@ -109,14 +110,15 @@ color: #434455;
 
 
 .hero-baner{
-    
+
 padding: 188px 0;
 background-color: #2e2f42;
 }
 
-.hero-baner-title{
 
-text-align: center;
+
+.hero-baner-title{
+     
 max-width: 496px;
 font-weight: 700;
 font-size: 56px;
@@ -284,11 +286,12 @@ color: #2e2f42;
 .portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 
 .portfolio-title {
-    margin-bottom: 72px;
+    margin-bottom: 8px;
+
  font-weight: 700;
  text-transform: capitalize;
 font-size: 36px;
@@ -299,6 +302,7 @@ color: #2e2f42;
 }
 
 .name-list-app{
+
 display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
@@ -306,17 +310,18 @@ row-gap: 48px;
 }
 
 .portfolio-list-item{
-
 width: calc((100% - 48px) / 3);
+
 }
     
 .name-app-container{
+ border: 1px solid  #e7e9fc;
 border-top: none;
 padding: 32px 16px;
 }
 
 .service-container{
-border: 1px solid  #e7e9fc;
+
 }
 
 .titles {
