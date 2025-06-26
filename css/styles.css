@@ -342,10 +342,10 @@ background-color:#f4f4fd;
 
    } 
 
-   .icons-svg:hover{
+   .socials:hover{
     background-color: #404bbf;
    }
-  .icons-svg:focus{
+  .socials:focus{
     background-color: #404bbf;
   }
   .icons-svg{
