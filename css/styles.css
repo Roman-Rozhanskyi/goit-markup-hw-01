@@ -314,10 +314,11 @@ background-color:#f4f4fd;
   
 }
 .name {
-  padding: 32px 0;
+  
   }
 
   .social-icons{
+    padding: 32px 0;
   }
 .socail-links{
 display: flex;
