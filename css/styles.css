@@ -303,6 +303,21 @@ background-color:#f4f4fd;
     align-items: center;
     justify-content: center;
   }
+
+  .social-links:hover{
+     background-color: #404bbf;
+
+  }
+
+  .social-links:focus{
+     background-color: #404bbf;
+
+  }
+
+  .social-icons{
+    fill: #f4f4fd;
+  }
+
   
     
 
