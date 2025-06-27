@@ -278,6 +278,21 @@ background-color:#f4f4fd;
   padding: 32px 0;
   
   }
+  .social-icons{
+    
+    
+  }
+  .social-icons-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    
+    
+  }
+  .social-icons
+  {
+    
+  }
 
 
 .taem-list {
