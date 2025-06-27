@@ -278,14 +278,17 @@ background-color:#f4f4fd;
   padding: 32px 0;
   
   }
-  .social-icons{
-    
-    
-  }
-  .social-icons-list{
+  
+   .social-list{
     display: flex;
     justify-content: center;
     gap: 24px;
+   } 
+    
+  
+  .social-icons-list{
+    width: 40px;
+    height: 40px;    
     
     
   }
