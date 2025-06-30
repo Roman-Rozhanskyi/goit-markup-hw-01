@@ -37,6 +37,7 @@ img {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  
 }
 
 .page-header {
@@ -489,6 +490,19 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08),
   background-color: #2e2f42;
 }
 
+.social-container{
+  display: flex;
+    align-items: center;
+    margin-right: 120px
+}
+
+.social-list-footer{
+  
+}
+.social-paragraph{
+
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -500,22 +514,9 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08),
   display: inline-block;
   margin-bottom: 16px;
 }
-
-
-
 .footer-logo-part {
   color: #f4f4fd;
 }
-
-
-
-
-  
-
-
- 
-
-
 
 .footer-list-text {
   max-width: 264px;
@@ -524,5 +525,9 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08),
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.footer-content{
+  display: flex;
+    align-items: baseline;
 }
 /*---footer section end*/
