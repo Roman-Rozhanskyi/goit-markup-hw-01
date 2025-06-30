@@ -501,10 +501,7 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08),
   margin-bottom: 16px;
 }
 
-.footer-content{
-  display: flex; 
-  align-items: baseline;
-}
+
 
 .footer-logo-part {
   color: #f4f4fd;
