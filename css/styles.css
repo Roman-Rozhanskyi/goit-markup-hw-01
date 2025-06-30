@@ -496,15 +496,20 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08),
   align-items: center;
 }
 .logo-paragraph{
-  margin-right: 120px
+  margin-right: 120px;
+  
+
 }
 .social-container{
+  display: flex;
+  align-items: baseline;
     
 }
 
 .social-list-footer{
   display: flex;
   gap: 16px;
+  align-items: center;
 }
 
 .social-icons-list-footer{
@@ -557,10 +562,7 @@ background-color:#31d0aa ;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.footer-content{
-  display: flex;
-    align-items: baseline;
-}
+
 
 .social-icons-footer{
 fill:#f4f4fd ;
