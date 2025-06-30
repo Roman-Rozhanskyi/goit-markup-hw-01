@@ -493,12 +493,10 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08),
 
 .social-container{
   display: flex;
-    align-items: center;
-    margin-right: 120px
+  align-items: center;
+   margin-right: 120px
 }
-.social-media-container{
-  margin-right: 120px;
-}
+
 .social-list-footer{
   
 }
