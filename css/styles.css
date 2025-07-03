@@ -614,11 +614,17 @@ pointer-events: auto;
 .form-field{
   display: flex;
   flex-direction: column;
+  margin-bottom: 8px;
   
 }
 
-.field-input{
-  margin-bottom: 8px;
+.label-input{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
 }
 
 
