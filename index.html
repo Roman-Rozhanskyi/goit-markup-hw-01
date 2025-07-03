@@ -542,14 +542,19 @@
         </div>
            
 
-         <div class="">
-            <label for="comment">Comment</label>
-            <textarea name="comment" placeholder="Text input"></textarea>
+         <div class="comment-field">
+            <label class="form-label" for="user-comment">Comment</label>
+            <textarea class="textarea-field" name="comment" id="user-comment" placeholder="Text input"></textarea>
          </div>
 
-         <div class="">
-          <input type="checkbox" name="privacy">
-          <label for="privacy">I accept the terms and conditions of the <span class="Privacy Policy">Privacy Policy</span></label>
+         <div class="checkbox-field">
+          <input class="visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true">
+          <label class="privacy-label" for="user-privacy">I accept the terms and conditions of the <span class="privacy-policy">Privacy Policy 
+            <svg class="privacy-icons" width="10" height="8">
+            <use href="./images/icons.svg"></use>
+          </svg></span>
+          <a class="privacy-policy-link">Privacy Policy</a>
+        </label>
          </div>
           <button type="submit" class="hero-baner-button">Send</button> 
         </form>
