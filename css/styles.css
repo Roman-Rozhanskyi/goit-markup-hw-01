@@ -701,11 +701,14 @@ pointer-events: auto;
   justify-content: center;
   fill: transparent;
 }
-.privacy-policy[type="checkbox"]:checked + label{
-  border: none;
-  background-color:#404bbf;
-  fill:#F4F4FD ;
+.visually-hidden{
+  border-color: #4D5AE5;
+    color: #000;
 }
+.visually-hidden + .privacy-icon{
+  fill: #4D5AE5;
+}
+
 .privacy-policy-link{
   color:#4d5ae5; 
 }
