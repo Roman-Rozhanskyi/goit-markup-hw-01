@@ -608,7 +608,6 @@ pointer-events: auto;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 72px;
     margin-bottom: 16px ;
 }
 .form-field{
@@ -716,7 +715,12 @@ pointer-events: auto;
   top: 16px;
   left: 24px;
 }
-
+.visually-hidden:checked .privacy-label .privacy-policy{
+  fill:#f4f4fd; 
+   background-color:  #404bbf;
+    border: none
+     
+}
 
 
 /*---modal window end*/
