@@ -758,7 +758,7 @@ pointer-events: auto;
   
 }
 
-footer> .placeholder{
+.footer> .placeholder{
   color: #ffffff;
 
 }
