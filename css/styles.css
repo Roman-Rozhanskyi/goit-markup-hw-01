@@ -647,7 +647,7 @@ pointer-events: auto;
   
 }
 
-.form-input:focus .form-icons{
+.form-input:focus +.form-icons{
   fill: #4D5AE5;
 }
 
