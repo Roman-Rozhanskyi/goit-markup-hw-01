@@ -715,7 +715,7 @@ pointer-events: auto;
   top: 16px;
   left: 24px;
 }
-.visually-hidden:checked .privacy-label .privacy-policy{
+.visually-hidden:checked + .privacy-label .privacy-policy{
   fill:#f4f4fd; 
    background-color:  #404bbf;
     border: none
@@ -786,6 +786,6 @@ pointer-events: auto;
 
 }
 .form-footer-container{
-  position: absolute;
+  margin-left: 80px;
   
 }
