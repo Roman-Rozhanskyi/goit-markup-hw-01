@@ -54,6 +54,86 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close">
+            <svg class="" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-nav-item">
+              <li class="mobile-menu-list-nav-studio">
+                Studio
+                <a class="mobile-menu-studio" href="./index.html"></a>
+              </li>
+              <li class="mobile-menu-list-nav">
+                Portfolio
+                <a class="mobile-menu-nav-link" href="./index.html"></a>
+              </li>
+              <li class="mobile-menu-list-nav">
+                Contacts
+                <a class="mobile-menu-nav-link" href="./index.html"></a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-menu-contacts">
+            <ul class="mobile-menu-contacts-list">
+              <li class="mobile-menu-contacts-item-tel">
+                <a
+                  class="mobile-menu-contacts-link-tel"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-menu-contacts-item-email">
+                <a
+                  class="mobile-menu-contacts-link-email"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div>
+            <ul class="mobile-menu-soc-list">
+              <li class="social-icons-list">
+                <a class="social-links" href="https://www.instagram.com/">
+                  <svg class="social-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="social-links" href="https://x.com/">
+                  <svg class="social-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="social-links" href="https://www.facebook.com/">
+                  <svg class="social-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-icons-list">
+                <a class="social-links" href="https://ua.linkedin.com/">
+                  <svg class="social-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -69,6 +149,7 @@
       <section class="benefits">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
+
           <ul class="benefits-list">
             <li class="benefits-list-item">
               <div class="benefits-item">
@@ -130,6 +211,7 @@
           <ul class="taem-list">
             <li class="list-item">
               <img
+                class="team-img-mobile"
                 src="./images/mark.jpg"
                 width="264"
                 height="260"
@@ -176,6 +258,7 @@
 
             <li class="list-item">
               <img
+                class="team-img-mobile"
                 src="./images/tom.jpg"
                 width="264"
                 height="260"
@@ -222,6 +305,7 @@
 
             <li class="list-item">
               <img
+                class="team-img-mobile"
                 src="./images/camila.jpg"
                 width="264"
                 height="260"
@@ -268,6 +352,7 @@
 
             <li class="list-item">
               <img
+                class="team-img-mobile"
                 src="./images/daniel.jpg"
                 width="264"
                 height="260"
@@ -324,6 +409,7 @@
             <li class="portfolio-list-item">
               <div class="page-back">
                 <img
+                  class="img-portfolio-mobile"
                   src="./images/bankapp.jpg"
                   width="360"
                   height="300"
@@ -345,6 +431,7 @@
             <li class="portfolio-list-item">
               <div class="page-back">
                 <img
+                  class="img-portfolio-mobile"
                   src="./images/qrcode.jpg"
                   width="360"
                   height="300"
@@ -366,6 +453,7 @@
             <li class="portfolio-list-item">
               <div class="page-back">
                 <img
+                  class="img-portfolio-mobile"
                   src="./images/normalcy.jpg"
                   width="360"
                   height="300"
@@ -387,6 +475,7 @@
             <li class="portfolio-list-item">
               <div class="page-back">
                 <img
+                  class="img-portfolio-mobile"
                   src="./images/car.jpg"
                   width="360"
                   height="300"
@@ -407,6 +496,7 @@
             <li class="portfolio-list-item">
               <div class="page-back">
                 <img
+                  class="img-portfolio-mobile"
                   src="./images/phone.jpg"
                   width="360"
                   height="300"
@@ -427,6 +517,7 @@
             <li class="portfolio-list-item">
               <div class="page-back">
                 <img
+                  class="img-portfolio-mobile"
                   src="./images/girl.jpg"
                   width="360"
                   height="300"
@@ -591,11 +682,14 @@
               value="true"
             />
             <label class="privacy-label" for="user-privacy"
-              ><span class="privacy-policy">
+              ></label><span class="privacy-policy">
                 <svg class="privacy-icons" width="10" height="8">
-                  <use href="./images/icons.svg#check"></use></svg></span
-              >I accept the terms and conditions of the
-              <a class="privacy-policy-link">Privacy Policy</a>
+                  <use href="./images/icons.svg#icon-check"></use></svg></span
+              ><span class="checkbox-text-mobile">
+                I accept the terms and conditions of the
+                <a class="privacy-policy-link">Privacy Policy</a>
+              </span>
+              
             </label>
           </div>
           <button type="submit" class="hero-baner-button">Send</button>
