@@ -551,7 +551,6 @@ button {
 
     .portfolio-list-item {
         width: 288px;
-        height: 400px;
         box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background: #fff;
     }
@@ -590,9 +589,7 @@ button {
         color: #2e2f42;
     }
 
-    .portfolio-list-text {
-        padding-bottom: 80px;
-    }
+    .portfolio-list-text {}
 }
 
 /* footer-mobile*/
@@ -1040,7 +1037,7 @@ button {
 @media screen and (min-width: 768px) {
 
     .page-footer {
-        width: 768px;
+
         margin: 0 auto;
         background-color: #2e2f42;
 
@@ -1514,6 +1511,7 @@ button {
     }
 
     .portfolio-overlay {
+        display: block;
         background-color: #4d5ae5;
         position: absolute;
         top: 0;
@@ -1565,7 +1563,10 @@ button {
 
 
 
+
 /*portfolio section end*/
+
+/*footer stction start*/
 
 @media screen and (min-width: 1158px) {
     .page-footer {
@@ -1584,6 +1585,7 @@ button {
         margin: 0 auto;
         display: flex;
         align-items: baseline;
+        flex-wrap: nowrap;
     }
 
     .social-list-footer {
@@ -1654,6 +1656,8 @@ button {
         fill: #f4f4fd;
     }
 }
+
+/*footer stction start*/
 
 
 /*---modal window start*/
@@ -1833,7 +1837,7 @@ button {
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8e8f99;
-        ;
+
     }
 
     .privacy-policy {
