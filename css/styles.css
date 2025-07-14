@@ -1034,8 +1034,10 @@ button {
         width: calc((100% - 24px) / 2);
 
     }
+}
 
-    /*footer tablet*/
+/*footer tablet*/
+@media screen and (min-width: 768px) {
 
     .page-footer {
         width: 768px;
@@ -1126,9 +1128,10 @@ button {
     .social-icons-footer {
         fill: #f4f4fd;
     }
+}
 
-    /* tablet modal window*/
-
+/* tablet modal window*/
+@media screen and (min-width: 768px) {
     .backdrop {
 
         position: fixed;
@@ -1343,122 +1346,124 @@ button {
         background-color: #404bbf;
         border: none
     }
+}
 
-    /*decstop*/
-    @media screen and (min-width: 1158px) {
-        .hero-baner {
-            margin: 0 auto;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            max-width: 1440px;
-            padding: 188px 0;
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
-        }
+/*decstop*/
+@media screen and (min-width: 1158px) {
+    .hero-baner {
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-width: 1440px;
+        padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
+    }
 
-        .hero-baner-title {
-            margin: 0 auto 48px;
-            max-width: 496px;
-            font-weight: 700;
-            font-size: 56px;
-            line-height: 1.07;
-            letter-spacing: 0.02em;
+    .hero-baner-title {
+        margin: 0 auto 48px;
+        max-width: 496px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
 
-            color: #fff;
-        }
+        color: #fff;
+    }
 
-        .hero-baner-button:hover {
-            background-color: #404bbf;
-        }
+    .hero-baner-button:hover {
+        background-color: #404bbf;
+    }
 
-        .hero-baner-button:focus {
-            background-color: #404bbf;
-        }
+    .hero-baner-button:focus {
+        background-color: #404bbf;
+    }
 
-        .hero-baner-button {
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            margin: 0 auto;
-            min-width: 169px;
-            height: 56px;
-            border: none;
-            background-color: #4d5ae5;
-            border-radius: 4px;
-            display: block;
-            cursor: pointer;
-            color: #ffffff;
-            letter-spacing: 0.04em;
-            line-height: 1.5;
-            font-weight: 500;
-        }
-
-        /*----benefits section star----*/
-
-        @media screen and (min-width: 1158px) {
-            .benefits {
-                padding: 120px 0;
-            }
-
-            .visually-hidden {
-                position: absolute;
-                white-space: nowrap;
-                width: 1px;
-                height: 1px;
-                overflow: hidden;
-                border: 0;
-                padding: 0;
-                clip: rect(0 0 0 0);
-                clip-path: inset(100%);
-                margin: -1px;
-            }
-
-            .benefits-list {
-                display: flex;
-                gap: 24px;
-                font-weight: 500;
-                font-size: 20px;
-                line-height: 1.2;
-                letter-spacing: 0.02em;
-                color: #2e2f42;
-            }
-
-            .benefits-list-item {
-                width: calc((100% - 72px) / 4);
-
-            }
-
-            .benefits-item {
-                margin-bottom: 8px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                fill: none;
-                border: 1px solid #8e8f99;
-                border-radius: 4px;
-                width: 264px;
-                height: 112px;
-                background-color: #f4f4fd;
-            }
-
-            .benefits-list-title {
-                margin-bottom: 8px;
-                font-weight: 500;
-                font-size: 20px;
-                line-height: 1.2;
-                letter-spacing: 0.02em;
-                color: #2e2f42;
-            }
-
-            .benefits-list-text {
-                gap: 24px;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: 0.02em;
-                color: #434455;
-            }
-        }
+    .hero-baner-button {
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        margin: 0 auto;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        background-color: #4d5ae5;
+        border-radius: 4px;
+        display: block;
+        cursor: pointer;
+        color: #ffffff;
+        letter-spacing: 0.04em;
+        line-height: 1.5;
+        font-weight: 500;
     }
 }
+
+/*----benefits section star----*/
+
+@media screen and (min-width: 1158px) {
+    .benefits {
+        padding: 120px 0;
+    }
+
+    .visually-hidden {
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(100%);
+        margin: -1px;
+    }
+
+    .benefits-list {
+        display: flex;
+        gap: 24px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
+
+    .benefits-list-item {
+        width: calc((100% - 72px) / 4);
+
+    }
+
+    .benefits-item {
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        fill: none;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background-color: #f4f4fd;
+    }
+
+    .benefits-list-title {
+        margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
+
+    .benefits-list-text {
+        gap: 24px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+}
+
+
 
 /*----benefits section end----*/
 
