@@ -240,12 +240,11 @@ button {
 /*mobile menu*/
 
 @media screen and (min-width: 768px) {
-    .mobile-menu {
-        display: none;
-    }
+    .mobile-menu {}
 }
 
 .mobile-menu {
+    font-style: normal;
     position: fixed;
     top: 0;
     left: 0;
@@ -329,6 +328,7 @@ button {
 }
 
 .mobile-menu-contacts-link-tel {
+    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -342,6 +342,7 @@ button {
 }
 
 .mobile-menu-contacts-link-email {
+    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -379,15 +380,16 @@ button {
 @media screen and (min-width: 320px) {
     .hero-baner {
 
-        margin-bottom: 96px;
+
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         min-width: 320px;
-        padding: 72px;
+        padding-top: 72px;
+        padding-bottom: 72px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg.jpg);
+            url(../images/mob-baner-2x.jpg);
     }
 
 
@@ -431,7 +433,8 @@ button {
 
 @media screen and (min-width: 320px) {
     .benefits {
-        margin-bottom: 96px;
+        padding-bottom: 96px;
+        padding-top: 96px;
     }
 
     .benefits-item {
@@ -447,12 +450,13 @@ button {
     }
 
     .benefits-list-title {
+        text-align: center;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 
     }
 
@@ -471,16 +475,20 @@ button {
 
     .team {
         background-color: #f4f4fd;
-        margin-bottom: 96px;
+        padding-bottom: 96px;
+        padding-top: 96px;
 
+    }
+
+    .name {
+        padding-bottom: 32px;
+        padding-top: 32px;
     }
 
 
     .list-item {
         border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px 0px;
         width: 264px;
-        height: 428px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background: #fff;
     }
@@ -492,7 +500,7 @@ button {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
     }
 
     .taem-list {
@@ -502,9 +510,7 @@ button {
         justify-content: center;
     }
 
-    .team-img-mobile {
-        padding-bottom: 32px;
-    }
+
 
     .name-list {
 
@@ -549,7 +555,11 @@ button {
         padding-bottom: 96px;
     }
 
-    .portfolio-list-item {
+    .name-app-container {
+        padding: 32px 16px;
+    }
+
+    .name-app-container .portfolio-list-item {
         width: 288px;
         box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background: #fff;
@@ -566,6 +576,7 @@ button {
     }
 
     .name-list-app {
+        flex-direction: column;
         display: flex;
         flex-wrap: wrap;
         gap: 72px 24px;
@@ -576,9 +587,7 @@ button {
         display: none;
     }
 
-    .img-portfolio-mobile {
-        padding-bottom: 32px;
-    }
+
 
     .titles {
         padding-bottom: 8px;
@@ -608,10 +617,15 @@ button {
         column-gap: 24px;
     }
 
+    .logo-paragraph {
 
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 72px;
+
+    }
 
     .footer-logo {
-
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -633,12 +647,13 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-        padding-bottom: 72px;
+
     }
 
     .social-container {
         text-align: center;
         justify-content: center;
+        margin-bottom: 72px;
     }
 
     .social-paragraph {
@@ -659,7 +674,7 @@ button {
         display: flex;
         gap: 16px;
         align-items: center;
-        padding-bottom: 72px;
+
     }
 
     .social-icons-list-footer {
@@ -1000,7 +1015,7 @@ button {
 @media screen and (min-width: 768px) {
     .hero-baner {
 
-        margin-bottom: 96px;
+
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -1008,7 +1023,7 @@ button {
         padding: 112px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg-tablet.jpg);
+            url(../images/tab-baner-2x.jpg);
     }
 
     .hero-baner-title {
@@ -1033,6 +1048,10 @@ button {
     }
 }
 
+.portfolio-list-item {
+    width: calc((100% - 24px) / 2);
+}
+
 /*footer tablet*/
 @media screen and (min-width: 768px) {
 
@@ -1041,6 +1060,17 @@ button {
         margin: 0 auto;
         background-color: #2e2f42;
 
+    }
+
+    .container-footer {
+
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        display: flex;
+
+        padding: 0 16px;
+        max-width: 584px;
+        margin: 0 auto;
     }
 
 
@@ -1354,7 +1384,8 @@ button {
         background-position: center;
         max-width: 1440px;
         padding: 188px 0;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/dec-baner-1x.jpg);
     }
 
     .hero-baner-title {
