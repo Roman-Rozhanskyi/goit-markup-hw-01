@@ -379,8 +379,6 @@ button {
 /*hero baner*/
 @media screen and (min-width: 320px) {
     .hero-baner {
-
-
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -390,6 +388,9 @@ button {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/mob-baner-2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/mob-baner-1x.jpg);
     }
 
 
@@ -1028,7 +1029,7 @@ button {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        max-width: 768px;
+        min-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/tab-baner-2x.jpg);
